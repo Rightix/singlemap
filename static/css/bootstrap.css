@@ -9632,6 +9632,7 @@ body p {
   /*align-items: center;*/
   justify-content: center;
   padding: 0 2rem;
+  width: 100%;
 }
 
 .header__info-item-wrapper {
@@ -9835,6 +9836,8 @@ body p {
   height: 100%;
   width: calc(100% - 32px);
 }
+
+
 
 .category_btn img {
   height: 32px;
