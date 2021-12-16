@@ -194,8 +194,8 @@
 
 
         <div class="col-7 col-lg-7 ml-auto">
-            <div class="ml-auto header__info">
-                <div class="header-slider uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider="clsActivated: uk-transition-active; autoplay: true; autoplay-interval: 4500">
+            <div class="uk-position-relative ml-auto header__info" uk-slider="clsActivated: uk-transition-active; autoplay: true; autoplay-interval: 4500">
+                <div class="uk-slider-container header-slider uk-position-relative uk-visible-toggle" tabindex="-1">
                         <ul class="uk-slider-items uk-grid">
                             <li class="uk-width">
                                 <div class="uk-panel header__info-item">
@@ -244,12 +244,14 @@
                                 </div>
                             </li>
                         </ul>
-                        <a class="uk-position-center-left uk-position-small d-none d-md-inline-block" href="#"
-                           uk-slidenav-previous uk-slider-item="previous"></a>
-                        <a class="uk-position-center-right uk-position-small d-none d-md-inline-block" href="#"
-                           uk-slidenav-next
-                           uk-slider-item="next"></a>
-                    </div>
+                </div>
+                <a uk-slidenav-previous class="left-navigation uk-position-small d-none d-md-inline-block" href="#" uk-slider-item="previous">
+                    <svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg>
+                </a>
+                <a uk-slidenav-next class="right-navigation uk-position-small d-none d-md-inline-block" href="#" uk-slider-item="next">
+                    <svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg>
+                </a>
+
             </div>
         </div>
 

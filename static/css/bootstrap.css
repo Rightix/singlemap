@@ -9631,8 +9631,18 @@ body p {
   display: flex;
   /*align-items: center;*/
   justify-content: center;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   width: 100%;
+}
+
+.header__info.uk-slider .left-navigation{
+  left: -30px;
+  position: absolute;
+}
+
+.header__info.uk-slider .right-navigation{
+  right: -30px;
+  position: absolute;
 }
 
 .header__info-item-wrapper {
@@ -9668,6 +9678,7 @@ body p {
   align-items: center;
   justify-content: flex-end;
   height: 100%;
+  margin-right: 30px;
 }
 
 .header-slider .uk-width {
