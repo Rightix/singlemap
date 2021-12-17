@@ -9629,10 +9629,11 @@ body p {
 
 .header__info-item {
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
   justify-content: center;
   padding: 0 1.5rem;
   width: 100%;
+  height: 100%;
 }
 
 .header__info.uk-slider .left-navigation{
@@ -9847,8 +9848,6 @@ body p {
   height: 100%;
   width: calc(100% - 32px);
 }
-
-
 
 .category_btn img {
   height: 32px;
